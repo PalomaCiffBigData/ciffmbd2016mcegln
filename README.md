@@ -14,3 +14,29 @@ pip install ciffmbd2016mcegln
 
 ### Usage
 
+IdentificacionTipos (df, output_var): Recibe un dataframe y nos indica de que tipo es cada columna
+```python
+
+```
+
+def LimpiezaDatos (df, dfo, output_var, list_inputs, list_if):  
+```python
+
+```
+
+def CreacionRatios (df, dfo, output_var, list_inputs, list_if, iMaxRatios):
+```python
+
+```
+def Normalizacion (df, dfo, list_if):
+```python
+
+```
+def PCAexpand (df, dfo, iNumComponentes):
+```python
+
+```
+def GeneticFeatureSelection (df, dfo, output_var, list_inputs, iNumEstimators):
+```python
+
+```
