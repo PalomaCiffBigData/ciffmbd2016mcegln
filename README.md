@@ -19,24 +19,24 @@ pip install ciffmbd2016mcegln
 
 ```
 
-**LimpiezaDatos (df, dfo, output_var, list_inputs, list_if)**:  
+**LimpiezaDatos (df, dfo, output_var, list_inputs, list_if)**:   Rellenar NaNs y valores fuera de rango
 ```python
 
 ```
 
-**CreacionRatios (df, dfo, output_var, list_inputs, list_if, iMaxRatios)**:
+**CreacionRatios (df, dfo, output_var, list_inputs, list_if, iMaxRatios)**: Partiendo de un conjunto de variables, realizar una explosión de las mismas combinándolas dos a dos mendiante funciones aritméticas
 ```python
 
 ```
-**Normalizacion (df, dfo, list_if)**:
+**Normalizacion (df, dfo, list_if)**: Normaliza las variables
 ```python
 
 ```
-**PCAexpand (df, dfo, iNumComponentes)**:
+**PCAexpand (df, dfo, iNumComponentes)**: Realiza una transformación PCA
 ```python
 
 ```
-**GeneticFeatureSelection (df, dfo, output_var, list_inputs, iNumEstimators)**:
+**GeneticFeatureSelection (df, dfo, output_var, list_inputs, iNumEstimators)**: Selecciona las mejores variables usando algorito genético.
 ```python
 
 ```
