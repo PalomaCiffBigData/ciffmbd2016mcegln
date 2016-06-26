@@ -1,5 +1,5 @@
 ## ciffmbd2016mcegln
-Proyecto CIFF-MBD-Finanzas (AF#5)
+###Proyecto CIFF-MBD-Finanzas (AF#5)
 
 ![Image of Yaktocat](https://cdn.shopify.com/s/files/1/0306/3653/products/wbw-monkey-4x3_medium.png width="48px" height="50px")
 
@@ -14,29 +14,29 @@ pip install ciffmbd2016mcegln
 
 ### Usage
 
-*IdentificacionTipos (df, output_var)*: Recibe un dataframe y nos indica de que tipo es cada columna
+**IdentificacionTipos (df, output_var)**: Recibe un dataframe y nos indica de que tipo es cada columna
 ```python
 
 ```
 
-*LimpiezaDatos (df, dfo, output_var, list_inputs, list_if)*:  
+**LimpiezaDatos (df, dfo, output_var, list_inputs, list_if)**:  
 ```python
 
 ```
 
-*CreacionRatios (df, dfo, output_var, list_inputs, list_if, iMaxRatios)*:
+**CreacionRatios (df, dfo, output_var, list_inputs, list_if, iMaxRatios)**:
 ```python
 
 ```
-*Normalizacion (df, dfo, list_if)*:
+**Normalizacion (df, dfo, list_if)**:
 ```python
 
 ```
-*PCAexpand (df, dfo, iNumComponentes)*:
+**PCAexpand (df, dfo, iNumComponentes)**:
 ```python
 
 ```
-*GeneticFeatureSelection (df, dfo, output_var, list_inputs, iNumEstimators)*:
+**GeneticFeatureSelection (df, dfo, output_var, list_inputs, iNumEstimators)**:
 ```python
 
 ```
