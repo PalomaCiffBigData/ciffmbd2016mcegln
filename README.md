@@ -16,12 +16,17 @@ pip install ciffmbd2016mcegln
 
 **IdentificacionTipos (df, output_var)**: Recibe un dataframe y nos indica de que tipo es cada columna
 ```python
-
+dfVars = IdentificacionTipos(df, output_var) # out_var es el nombre de la variable target
 ```
 
 **LimpiezaDatos (df, dfo, output_var, list_inputs, list_if)**:   Rellenar NaNs y valores fuera de rango
 ```python
-
+dfo = LimpiezaDatos (df, dfo, output_var, list_inputs, list_if)
+# df es el dataframe de training, para obtener la media y la desviacion
+# dfo para el dataframe
+# output_var
+# list_inputs
+# list_if
 ```
 
 **CreacionRatios (df, dfo, output_var, list_inputs, list_if, iMaxRatios)**: Partiendo de un conjunto de variables, realizar una explosión de las mismas combinándolas dos a dos mendiante funciones aritméticas
